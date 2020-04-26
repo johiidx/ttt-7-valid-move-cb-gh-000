@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
+  position = index.to_i - 1
   if position_taken?(board, index) == false && index.between?(1, 9)
     return true
   else
