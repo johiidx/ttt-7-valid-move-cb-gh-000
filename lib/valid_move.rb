@@ -15,4 +15,5 @@ position = index.to_i - 1
     return false
   else
     return true
+  end
 end
