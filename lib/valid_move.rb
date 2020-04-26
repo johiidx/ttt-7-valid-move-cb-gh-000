@@ -5,4 +5,8 @@
 def position_taken(board, index)
 position = index.to_i - 1
 
-if (board[position] == "" || board[position] == " " || board[position] == nil) 
+  if (board[position] == "" || board[position] == " " || board[position] == nil)
+    return false
+  else
+    return true
+end
